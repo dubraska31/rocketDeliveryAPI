@@ -1,6 +1,12 @@
 # rocketDeliveryAPI
 
-curl de prueba (importar en postMan)
+- MySql DB
 
-curl --location 'http://localhost:8080/api/users' \
---header 'Cookie: JSESSIONID=3B62CCFCBCD7F25905E7ECB40FEA8ECE'
+correr el archivo Dump20230330.sql en Workbench, esta ubicado en la raiz, en la carpeta "scripts"
+
+
+- PostMan
+
+importar el curl en PostMan para probar el EndPoint base
+
+curl --location 'http://localhost:8080/rocket-delivery/api/users'
